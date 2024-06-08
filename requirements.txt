@@ -1,8 +1,6 @@
 fastbook
 streamlit
-fastai==2.7.11
-torch
-torchvision
+fastai
 numpy
 pandas
 voila
