@@ -5,7 +5,6 @@ import streamlit as st
 import pathlib
 from pathlib import Path
 import platform
-pathlib.PosixPath = pathlib.WindowsPath
 
 # Set custom CSS for dark theme
 st.markdown("""
