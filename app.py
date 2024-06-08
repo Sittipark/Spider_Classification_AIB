@@ -40,7 +40,7 @@ st.markdown("<h1 style='color:#ff0000;text-align:center;'>🕷️ SPIDER CLASSIF
 # Load model
 # path = Path()
 path = Path("Spider_Classification_AIB/vgg19_model_2.pkl")
-# learn_inf = load_learner('path/vgg19_model_2.pkl', cpu = True)
+learn_inf = load_learner(path, cpu = True)
 
 def get_spider_info(spider_name):
     spider_info = {
