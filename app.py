@@ -3,7 +3,7 @@ import glob
 from random import shuffle
 import streamlit as st
 import pathlib
-# from pathlib import Path
+from pathlib import Path
 
 # Set custom CSS for dark theme
 st.markdown("""
@@ -36,7 +36,7 @@ st.markdown("""
 st.markdown("<h1 style='color:#ff0000;text-align:center;'>🕷️ SPIDER CLASSIFICATION 🕷️</h1>", unsafe_allow_html=True)
 
 # Load model
-# path = Path()
+path = Path()
 learn_inf = load_learner('vgg19_model_2.pkl', cpu = True)
 
 def get_spider_info(spider_name):
