@@ -4,8 +4,8 @@ from random import shuffle
 import streamlit as st
 import pathlib
 from pathlib import Path
-temp = pathlib.PosixPath
-pathlib.PosixPath = pathlib.WindowsPath
+# temp = pathlib.PosixPath
+# pathlib.PosixPath = pathlib.WindowsPath
 
 # Set custom CSS for dark theme
 st.markdown("""
