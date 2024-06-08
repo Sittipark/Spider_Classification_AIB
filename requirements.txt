@@ -1,8 +1,8 @@
-fastai
 streamlit
+fastai==2.7.11
+torch==1.8.1+cpu
+torchvision==0.9.1+cpu
 numpy
 pandas
-torch==1.8.1+cpu 
-torchvision==0.9.1+cpu
 voila
 ipywidgets
