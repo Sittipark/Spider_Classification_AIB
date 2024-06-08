@@ -1,3 +1,8 @@
+from fastai.vision.all import (
+    load_learner,
+    PILImage,
+    Resize,
+)
 from fastai.vision.all import *
 import glob
 from random import shuffle
@@ -37,8 +42,8 @@ st.markdown("""
 st.markdown("<h1 style='color:#ff0000;text-align:center;'>🕷️ SPIDER CLASSIFICATION 🕷️</h1>", unsafe_allow_html=True)
 
 # Load model
-# path = Path()
-learn_inf = load_learner('vgg19_model_2.pkl', cpu = True)
+path = Path()
+learn_inf = load_learner(path/'vgg19_model_2.pkl', cpu = True)
 
 def get_spider_info(spider_name):
     spider_info = {
