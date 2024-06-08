@@ -81,7 +81,7 @@ st.sidebar.markdown("<h3>Enter spider to classify</h3>", unsafe_allow_html = Tru
 
 # Image source selection
 option = st.sidebar.radio('', ['Use a validation image', 'Use your own image'])
-valid_images = glob.glob('SPIDER_DATASET/valid/*/*')
+valid_images = glob.glob('valid/*/*')
 shuffle(valid_images)
 
 if option == 'Use a validation image':
